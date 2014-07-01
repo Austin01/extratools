@@ -2,10 +2,12 @@ package com.suhnday.extratools.Recipes;
 
 import com.suhnday.extratools.Blocks.ModBlocks;
 import com.suhnday.extratools.Items.ModItems;
+import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockObsidian;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class CraftingManager {
@@ -17,6 +19,10 @@ public class CraftingManager {
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldBoots), new Object[]{"E E", "E E", 'E', Items.emerald});
 
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianHelmet), new Object[]{"EEE", "E E", 'E', Block.getBlockById(49)});
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianChestplate), new Object[]{"E E", "EEE", "EEE", 'E', Block.getBlockById(49)});
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianLeggings), new Object[]{"EEE", "E E", "E E", 'E', Block.getBlockById(49)});
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianBoots), new Object[]{"E E", "E E", 'E', Block.getBlockById(49)});
+
     }
 
     public static void registerToolRecipes() {
@@ -24,6 +30,19 @@ public class CraftingManager {
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldAxe), new Object[]{"EE ", "ES ", " S ", 'S', Items.stick, 'E', Items.emerald});
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldSpade), new Object[]{" E ", " S ", " S ", 'S', Items.stick, 'E', Items.emerald});
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.emeraldHoe), new Object[]{"EE ", " S ", " S ", 'S', Items.stick, 'E', Items.emerald});
+
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianPickaxe), new Object[]{"EEE", " S ", " S ", 'S', Items.stick, 'E', Block.getBlockById(49)});
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianAxe), new Object[]{"EE ", "ES ", " S ", 'S', Items.stick, 'E', Block.getBlockById(49)});
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianSpade), new Object[]{" E ", " S ", " S ", 'S', Items.stick, 'E', Block.getBlockById(49)});
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.obsidianHoe), new Object[]{"EE ", " S ", " S ", 'S', Items.stick, 'E', Block.getBlockById(49)});
+
+
+    }
+
+    public static void registerSmeltingRecipes() {
+//                GameRegistry.addSmelting(new ItemStack(ModBlocks.emeraldBrick), new ItemStack(ModBlocks.emeraldBrickCracked), 0.1f);
+
+
     }
 
     public static void registerBlockRecipes() {
