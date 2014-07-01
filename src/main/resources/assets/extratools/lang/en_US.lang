@@ -1,0 +1,33 @@
+# Creative Tabs
+itemGroup.tabTools=EmeraldTools | Tools
+itemGroup.tabArmor=EmeraldTools | Armor
+
+# Tools
+item.emeraldPickaxe.name=Emerald Pickaxe
+item.emeraldAxe.name=Emerald Axe
+item.emeraldSpade.name=Emerald Spade
+item.emeraldHoe.name=Emerald Hoe
+
+# Weapons
+item.emeraldSword.name=Emerald Sword
+item.obsidianSword.name=Obsidian Sword
+
+# Armor
+item.emeraldHelmet.name=Emerald Helmet
+item.emeraldChestplate.name=Emerald Chestplate
+item.emeraldLeggings.name=Emerald Leggings
+item.emeraldBoots.name=Emerald Boots
+
+item.obsidianHelmet.name=Obsidian Helmet
+item.obsidianChestplate.name=Obsidian Chestplate
+item.obsidianLeggings.name=Obsidian Leggings
+item.obsidianBoots.name=Obsidian Boots
+
+# Blocks
+tile.emeraldBrickChiseled.name=Emerald Brick Chiseled
+tile.emeraldBrickMossy.name=Emerald Brick Mossy
+tile.emeraldBrickSlab.name=Emerald Brick Slab
+tile.emeraldBrick.name=Emerald Brick
+tile.emeraldBrickStairs.name=Emerald Brick Stairs
+tile.emeraldBrickCracked.name=Emerald Brick Cracked
+tile.emeraldBrickSlabDouble.name=Emerald Brick Double Slab
