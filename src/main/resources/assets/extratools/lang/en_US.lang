@@ -8,6 +8,11 @@ item.emeraldAxe.name=Emerald Axe
 item.emeraldSpade.name=Emerald Spade
 item.emeraldHoe.name=Emerald Hoe
 
+item.obsidianPickaxe.name=Obsidian Pickaxe
+item.obsidianAxe.name=Obsidian Axe
+item.obsidianShovel.name=Obsidian Shovel
+item.obsidianHoe.name=Obsidian Hoe
+
 # Weapons
 item.emeraldSword.name=Emerald Sword
 item.obsidianSword.name=Obsidian Sword
