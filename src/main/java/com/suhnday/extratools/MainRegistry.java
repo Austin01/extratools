@@ -40,5 +40,6 @@ public class MainRegistry {
         CraftingManager.registerToolRecipes();
         CraftingManager.registerWeaponRecipes();
         CraftingManager.registerBlockRecipes();
+//        CraftingManager.registerSmeltingRecipes(); We'll hold off for now
     }
 }
