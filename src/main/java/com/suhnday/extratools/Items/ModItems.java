@@ -46,10 +46,10 @@ public class ModItems {
     public static Item obsidianSword;
 
     //Material
-    public static ArmorMaterial emeraldArmorSet = EnumHelper.addArmorMaterial("EMERALD", 46, new int[]{3, 8, 7, 3}, 20);
-    public static ToolMaterial emeraldToolset = EnumHelper.addToolMaterial("EMERALD", 4, 2, 8.5F, 3.5F, 10000);
-    public static ToolMaterial obsidianToolset = EnumHelper.addToolMaterial("OBSIDIAN", 4, 2, 4, 4, 10000);
-    public static ArmorMaterial obsidianArmorSet = EnumHelper.addArmorMaterial("OBSIDIAN", 66, new int[]{4, 10, 9, 4}, 0);
+    public static ArmorMaterial emeraldArmorSet = EnumHelper.addArmorMaterial("EMERALD", 46, new int[]{3, 8, 7, 3}, 1);
+    public static ToolMaterial emeraldToolset = EnumHelper.addToolMaterial("EMERALD", 4, 450, 6.5F, 0, 1);
+    public static ToolMaterial obsidianToolset = EnumHelper.addToolMaterial("OBSIDIAN", 4, 600, 2, 1, 1);
+    public static ArmorMaterial obsidianArmorSet = EnumHelper.addArmorMaterial("OBSIDIAN", 56, new int[]{4, 10, 9, 4}, 0);
 //Methods
 
     public static void createItems() {
